@@ -269,6 +269,11 @@ body {
     color: hsl(220, 16%, 96%);
     opacity: 0.6;
   }
+
+  .footer-flex3 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 1440px) {

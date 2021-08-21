@@ -548,6 +548,10 @@ button:hover {
     flex-direction: column;
   }
 
+  .card {
+    margin-right: 0;
+  }
+
   /* Latest-Articles Section End*/
 
   /* Footer */

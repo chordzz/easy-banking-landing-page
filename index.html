@@ -31,6 +31,21 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="svg-filter">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values="0 0 0 0 0
+                    0 0.8 0 0 0
+                    0 0 0 0 0
+                    0 0 0 1 0 "
+          />
+        </filter>
+        ...
+      </defs>
+    </svg>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -216,7 +231,11 @@
           <div class="socials">
             <ul>
               <li>
-                <img src="images/icon-facebook.svg" alt="facebook-icon" />
+                <img
+                  class="facebook"
+                  src="images/icon-facebook.svg"
+                  alt="facebook-icon"
+                />
               </li>
               <li><img src="images/icon-youtube.svg" alt="youtube-icon" /></li>
               <li><img src="images/icon-twitter.svg" alt="twitter-icon" /></li>

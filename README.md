@@ -1,4 +1,6 @@
-# Frontend Mentor - Easybank landing page
+# My solution is Published at https://chordzz.github.io/easy-banking-landing-page/
+
+## Frontend Mentor - Easybank landing page
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
